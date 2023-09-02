@@ -1,0 +1,39 @@
+{
+  "name": "codepay",
+  "version": "0.0.1",
+  "description": "Pay to download code",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/index.js"
+  },
+  "bin": {
+    "codepaytest": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yumankind/codepay.git"
+  },
+  "keywords": [
+    "pay",
+    "code",
+    "pay",
+    "to",
+    "download",
+    "paywall",
+    "subscription",
+    "build",
+    "ship",
+    "fast"
+  ],
+  "author": "Bruno Silva @yumankind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yumankind/codepay/issues"
+  },
+  "homepage": "https://github.com/Yumankind/codepay#readme",
+  "dependencies": {
+    "inquirer": "^9.2.10"
+  }
+}
